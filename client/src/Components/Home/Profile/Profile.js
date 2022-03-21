@@ -7,6 +7,7 @@ const Profile = () => {
     return (
         <div className='profile-container'>
             <div className='profile-parent'>
+
                 <div className='profile-details'>
 
                     <div className='colz'>
@@ -70,7 +71,6 @@ const Profile = () => {
 
                 <div className='profile-picture'>
                     <div className='profile-picture-background'>
-
                     </div>
                 </div>
 
