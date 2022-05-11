@@ -3,6 +3,7 @@ import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
 import ScrollService from '../../utilities/ScrollService'
 import Animation from '../../utilities/Animation'
 import { Link } from 'react-router-dom'
+import './AboutMe.css';
 
 const AboutMe = ({ id }) => {
     let fadeInScreenHandler = (screen) => {
@@ -12,14 +13,13 @@ const AboutMe = ({ id }) => {
 
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
     const SCREEN_CONSTANTS = {
-        description: "this is description for testing",
+        description: "Full Stack web developer with background knowledge of MERN stacks",
         highlights: {
             bullets: [
-                "thisqldwklwkl blklwqkdwq",
-                "thisqldwklwkl blklwqkdwq",
-                "thisqldwklwkl blklwqkdwq",
-                "thisqldwklwkl blklwqkdwq",
-                "thisqldwklwkl blklwqkdwq",
+                "Full Stack Web Development",
+                "Interactive Front End Design",
+                "Building REST API",
+                "Managing database",
             ],
             heading: "Here are a few Highlights:"
         }
